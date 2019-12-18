@@ -120,7 +120,7 @@ if( !isLittleEndian() ) {
 }
 
 /* Set URL */
-curl_easy_setopt(curl, CURLOPT_URL, "https://developers.curvsurf.com/FindSurface/plane.json");
+curl_easy_setopt(curl, CURLOPT_URL, "https://developers.curvsurf.com/FindSurface/plane");
 
 /* Set Request Header */
 curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headerList);
