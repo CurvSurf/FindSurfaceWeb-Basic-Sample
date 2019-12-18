@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="sample.js"></script>
+		<script>
+			function onClickButtonBinary()
+			{
+				try { requestFindSurface( makeRequestBuffer() ); }
+				catch(e) { alert(e); }
+			}
+
+			function onClickButtonJSON()
+			{
+				try { requestFindSurfaceJSON( makeRequestBuffer() ); }
+				catch(e) { alert(e); }
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="onClickButtonBinary()">Binary</button>
+		<button onclick="onClickButtonJSON()">JSON</button>
+	</body>
+</html>
