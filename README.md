@@ -29,7 +29,7 @@ We provide samples for several languages as follows:
 
 In these samples, they use a hard-coded data array for input point cloud data in order to keep themselves as simple as possible (without any boiler-plate code for File I/O).
 
-The data array represents 100 points forming a rectangle on the XZ plane, having an error of 0.003 in the direction of the Z-axis. Each value of points must be represented as IEEE floating point representation and in these samples, the points use 32-bit single precision values without other attributes (e.g., colors).
+The data array represents 100 points forming a rectangle on the XY-plane, having an error of 0.003 in the direction of the Z-axis. Each value of points must be represented as IEEE floating point representation and in these samples, the points use 32-bit single precision values without other attributes (e.g., colors).
 
 ### Sample Data
 ```c
