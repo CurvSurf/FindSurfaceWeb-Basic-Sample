@@ -26,6 +26,7 @@ We provide samples for several languages as follows:
 - [Kotlin (with JVM)](kotlin_jvm/README.md)
 - [Objective C](objc/README.md)
 - [Swift](swift/README.md)
+- [Python](python/README.md)
 
 In these samples, they use a hard-coded data array for input point cloud data in order to keep themselves as simple as possible (without any boiler-plate code for File I/O).
 
